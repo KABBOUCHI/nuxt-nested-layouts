@@ -1,6 +1,6 @@
 let mdxPageNames = [];
 
-let mdxPages = require.context('@/pages', false, /\.mdx$/)
+let mdxPages = require.context('@/pages', true, /\.mdx$/)
 
 mdxPages.keys().map(key => {
 
