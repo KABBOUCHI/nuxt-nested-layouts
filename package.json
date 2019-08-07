@@ -15,5 +15,8 @@
     "nuxt": "^2.0.0",
     "tailwindcss": "^1.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@mdx-js/vue-loader": "^1.1.6",
+    "@vue/babel-preset-jsx": "^1.1.0"
+  }
 }
